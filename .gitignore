@@ -6,6 +6,13 @@
 *.ear
 
 /*/target/
+target/
+
+/**/tmp/
+/**/logs/
+droid-results/profiles/myProfile
+droid-command-line/src/test/resources/temp/*
+droid-report/myPdf.pdf
 
 .idea/**
 /*/.idea/**
