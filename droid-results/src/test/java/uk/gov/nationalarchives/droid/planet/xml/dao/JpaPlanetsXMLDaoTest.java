@@ -55,7 +55,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.datasource.DataSourceUtils;
-import org.springframework.test.annotation.Commit;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -73,7 +72,6 @@ import uk.gov.nationalarchives.droid.profile.FilterImpl;
 @ContextConfiguration(locations = { "classpath*:META-INF/spring-jpa.xml",
         "classpath*:META-INF/spring-results.xml",
         "classpath*:META-INF/spring-test.xml" })
-@Commit
 public class JpaPlanetsXMLDaoTest {
 
     private static IDataSet testData;
